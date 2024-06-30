@@ -283,3 +283,24 @@ button.register {
     line-height: 24px;
     font-size: 14px;
 }
+
+footer {
+    padding: 50px;
+    background-color: #071629;
+}
+
+.footer-row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+footer a {
+    margin-right: 15px;
+}
