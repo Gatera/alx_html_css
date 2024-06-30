@@ -214,7 +214,7 @@ button.register {
     justify-content: center;
     background-color: #071629;
     color: #fff;
-    padding: 50px 0 50px;
+    padding: 50px;
 }
 
 #membership h3 {
@@ -243,4 +243,43 @@ button.register {
 
 .register-btn {
     text-align: center;
+}
+
+#faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+#faq h3 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.faq-container {
+    display: flex;
+    margin: 50px 40px;
+}
+
+.faq-container h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #071629;
+}
+
+.faq1, .faq2 {
+    margin-right: 110px;
+}
+
+.faq2 {
+    margin-top: 74px;
+}
+
+.faq1 p, .faq2 p {
+    margin-top: 30px;
+    color: rgba(7, 22, 41, 0.5);
+    line-height: 24px;
+    font-size: 14px;
 }
