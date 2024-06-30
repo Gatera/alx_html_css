@@ -42,6 +42,10 @@ nav a {
     color: #fff;
 }
 
+#tutorials {
+    display: flex;
+}
+
 #banner div {
     width: 100%;
 }
@@ -62,9 +66,27 @@ nav a {
     margin-bottom: 100px;
 }
 
+.videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.videos h3 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+}
+
 .pros-profiles {
     display: flex;
     margin-top: 87px;
+}
+
+.video-profiles {
+    display: flex;
+    margin: 50px 40px;
 }
 
 #banner h1 {
@@ -133,4 +155,55 @@ button.register {
 
 .spacing-top {
     margin-top: 10px;
+}
+
+.spacing-sides {
+    margin: 10px 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.video-profiles h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #071629;
+}
+
+.video-cards {
+    margin: 0px 20px;
+}
+
+.video-caption {
+    font-size: 14px;
+    color: rgba(7, 22, 41, 0.5);
+    margin-top: 10px;
+}
+
+.video-avatar {
+    max-height: 30px;
+}
+
+.video-avatar-items {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.video-avatar-items h6 {
+    margin-left: 10px;
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.star-ratings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.star-img {
+    margin: 10px 5px 0 0;
 }
