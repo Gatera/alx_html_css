@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Advanced CSS</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <a href="http://"><img src="" alt="" srcset=""></a>
+        <a href="http://"><img src="media/smile_school_logo.png" alt="smile school logo" class="logo"></a>
         <nav>
             <ul>
                 <li><a href="http://">Courses</a></li>
@@ -19,33 +19,39 @@
     </header>
 
     <main>
-        <section>
-            <div>
+        <section id="banner">
+            <div class="banner">
                 <h1>Get schooled</h1>
-                <p>Smiles Grin Laugh</p>
-                <button>Register for free</button>
+                <div id="tagline">
+                    <p>Smiles</p>
+                    <p>Grin</p>
+                    <p>Laugh</p>
+                </div>
+                <button class="register">Register for free</button>
             </div>
-            <div>
-                <h3>Learn from the pros</h3>
-                <div>
-                    <img src="" alt="" srcset="">
-                    <h6>Phillip Massey</h6>
-                    <p>« Smile of the year »<br>2018-2019</p>
-                </div>
-                <div>
-                    <img src="" alt="" srcset="">
-                    <h6>Nannie Lawrence</h6>
-                    <p>Best « little smile »<br>2017</p>
-                </div>
-                <div>
-                    <img src="" alt="" srcset="">
-                    <h6>Bruce Walters</h6>
-                    <p>Best « Friend Smile »<br>2019</p>
-                </div>
-                <div>
-                    <img src="" alt="" srcset="">
-                    <h6>Henry Hughes</h6>
-                    <p>« 24hr smiles » winner<br>2016-2019</p>
+            <div class="pros">
+                <h3><span class="purple">Learn</span> from the pros</h3>
+                <div class="pros-profiles">
+                    <div>
+                        <img src="media/phillip_avatar.png" alt="Phillip Massey Avatar">
+                        <h6>Phillip Massey</h6>
+                        <p>« Smile of the year »<br>2018-2019</p>
+                    </div>
+                    <div>
+                        <img src="media/Nannie avatar.png" alt="Nannie Lawrence Avatar">
+                        <h6>Nannie Lawrence</h6>
+                        <p>Best « little smile »<br>2017</p>
+                    </div>
+                    <div>
+                        <img src="media/Bruce avatar.png" alt="Bruce Walters Avatar">
+                        <h6>Bruce Walters</h6>
+                        <p>Best « Friend Smile »<br>2019</p>
+                    </div>
+                    <div>
+                        <img src="media/Henry avatar.png" alt="Henry Hughes">
+                        <h6>Henry Hughes</h6>
+                        <p>« 24hr smiles » winner<br>2016-2019</p>
+                    </div>
                 </div>
             </div>
         </section>
