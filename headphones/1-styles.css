@@ -186,3 +186,95 @@ header nav ul li a:active {
         margin: 10px 0;
     }
 }
+
+
+/*////////////////// WHAT WE DO ////////////////////////////*/
+
+.what-we-do {
+    text-align: center;
+    padding: 60px 20px;
+    color: #071629;
+}
+
+.what-we-do .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.what-we-do h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.what-we-do p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    max-width: 200px;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.service .icon {
+    height: 57px;
+    color: #FF6565;
+    margin-bottom: 40px;
+}
+
+.service h3 {
+    font-size: 18px;
+    margin-bottom: 13px;
+    font-weight: 600;
+}
+
+.service p {
+    font-weight: 14px;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .services {
+        justify-content: center;
+    }
+
+    .service {
+        max-width: 180px;
+        margin: 20px 29px;
+    }
+}
+
+@media (max-width: 768px) {
+    .services {
+        justify-content: center;
+    }
+
+    .service {
+        max-width: 180px;
+        margin: 50px 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .what-we-do {
+        padding: 40px 20px;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        max-width: 207px;
+        margin: 48px 0;
+    }
+}
